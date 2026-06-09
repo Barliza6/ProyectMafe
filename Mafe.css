@@ -6,8 +6,8 @@
 
 body{
     background:#000000;
-    overflow:hidden;
-    font-family:'Segoe UI',sans-serif;
+    overflow-y: auto;
+    font-family: 'Victor Mono', Consolas, 'Courior New'
 }
 
 #canvas{
