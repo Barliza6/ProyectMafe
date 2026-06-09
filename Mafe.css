@@ -85,3 +85,36 @@ body{
     }
 
 }
+.galeria {
+  text-align: center;
+  padding: 40px 20px;
+  background: #0a0a0a;
+}
+
+.galeria h2 {
+  color: rgb(206, 204, 204);
+  font-family: 'Victor Mono', Consolas, 'Courier New';
+  font-style: italic;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.fotos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.fotos img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #8b0000;
+  transition: transform 0.3s ease;
+}
+
+.fotos img:hover {
+  transform: scale(1.05);
+}
